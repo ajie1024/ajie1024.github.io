@@ -12,7 +12,7 @@ github_repo: "https://github.com/phoenixwang1024/phoenixwang1024.github.io.git" 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/smoking.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/smoking.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
