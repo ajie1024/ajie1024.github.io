@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 9f82c4a765a50f06a15b                            #生成的clientID
   clientSecret: b38dd86428cb94495f6f1369121372e69f3e1bad    #生成的clientSecret
-  repo: blog-comments    #仓库名称
+  repo: https://github.com/phoenixwang1024/blog-comments    #仓库名称
   owner: phoeniwang1024   #github用户名
   admin: phoenixwang1024
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
