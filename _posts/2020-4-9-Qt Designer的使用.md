@@ -28,18 +28,25 @@ tags:
 
   Qt Designer符合MVC（模型model - 视图view - 控制器Ctr)设计模式，做到了显示和业务逻辑的分离。
   Qt Designer具有以下优点：
-    - 使用简单，通过拖拽和点击就可以完成复杂的界面设计，而且还可以随时预览查看效果图（快捷键：ctr+r)
-    - 转换Python文件方便。Qt Designer可以将设计好的用户界面保存为.ui文件，其实是XML格式的文本文件。为了在PyQt中使用.ui文件，可以通过pyuic5命
-      令将.ui文件转换为.py文件，然后将.py文件引入到自定义的Python代码中。
++ 使用简单，通过拖拽和点击就可以完成复杂的界面设计，而且还可以随时预览查看效果图（快捷键：ctr+r)
++ 转换Python文件方便。Qt Designer可以将设计好的用户界面保存为.ui文件，其实是XML格式的文本文件。为了在PyQt中使用.ui文件，可以通过pyuic5命
+  令将.ui文件转换为.py文件，然后将.py文件引入到自定义的Python代码中。
   Qt Designer默认安装在%/python.\*/site-pages/pyqt5-tools 目录下，在笔者的机器上Qt Designer的安装路径是D:\\WinPyQt5.9-32bit-3.5.3.1。
   Qt Designer的启动文件为Designer.exe, 如图1-1所示：
-![1-1](https://phoenixwang1024.github.io/img/QtDesiner1-1.jpg)
+
+![1-1](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-1.jpg)
 
 ### 1.1 新建主窗格
 
   在Qt Designer的安装路径下双击designer.exe文件，打开PyQt 5的Qt Designer， 会自动弹出“新建窗体”对话框， 如图 1-2所示。在模板选项中，最常用的就是Widget（通用窗口)和 Main Window （主窗口）。 在PyQt 5中 Widget被分离出来，用来替代 Dialog，并将 Widget 放入了 QtWiget模块库中。
-![1-2](https://phoenixwang1024.github.io/img/QtDesiner1-2.jpg)
+
+![1-2](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-2.jpg)
+
+  模板选择“ Main Window”， 创建一个主窗口，保存并没命名firstMainWin.ui,如图1-3 所示， 主窗口默认添加了菜单栏、工具栏和状态栏。
+
+![1-2](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-3.jpg)
+
+### 1.2 窗口主要区域介绍
 
 
-## ps：
-希望这个能给大家提供帮助~
+  在图1-3 中标注了窗口的主要区域，区域 1 是 Widget Box（工具箱）， 如图1-4所示， 其中提供了很多控件，每个控件都有自己的名称，提供不同的功能， 比如常用的按钮、 单选钮、 文本框登， 可以直接拖放到主窗口中。 在菜单栏中选择“窗体” \-\- "预览"， 或者按"Ctr+R" 快捷键， 就可以看到窗口的预览效果了。
