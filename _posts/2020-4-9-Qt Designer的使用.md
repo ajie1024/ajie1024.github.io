@@ -33,12 +33,12 @@ tags:
       令将.ui文件转换为.py文件，然后将.py文件引入到自定义的Python代码中。
   Qt Designer默认安装在%/python.\*/site-pages/pyqt5-tools 目录下，在笔者的机器上Qt Designer的安装路径是D:\\WinPyQt5.9-32bit-3.5.3.1。
   Qt Designer的启动文件为Designer.exe, 如图1-1所示：
-![1-1](https://phoenixwang1024.github.io/img/1-1.jpg)
+![1-1](https://phoenixwang1024.github.io/img/QtDesiner1-1.jpg)
 
 ### 1.1 新建主窗格
 
   在Qt Designer的安装路径下双击designer.exe文件，打开PyQt 5的Qt Designer， 会自动弹出“新建窗体”对话框， 如图 1-2所示。在模板选项中，最常用的就是Widget（通用窗口)和 Main Window （主窗口）。 在PyQt 5中 Widget被分离出来，用来替代 Dialog，并将 Widget 放入了 QtWiget模块库中。
-![1-2](https://phoenixwang1024.github.io/img/1-2.jpg)
+![1-2](https://phoenixwang1024.github.io/img/QtDesiner1-2.jpg)
 
 
 ## ps：
