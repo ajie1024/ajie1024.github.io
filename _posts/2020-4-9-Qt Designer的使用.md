@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Qt Designer的使用--01
+title:      Qt Designer的使用--01 界面介绍
 subtitle:   print的格式化输出
 date:       2020-04-06
 author:     Phoenix_W
@@ -11,6 +11,8 @@ tags:
     - UI
     - PyQt5
     - Qt Designer
+    - PyQt5教程（一）
+    - PyQt5教程
 ---
 
 
@@ -44,9 +46,40 @@ tags:
 
   模板选择“ Main Window”， 创建一个主窗口，保存并没命名firstMainWin.ui,如图1-3 所示， 主窗口默认添加了菜单栏、工具栏和状态栏。
 
-![1-2](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-3.jpg)
+![1-3](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-3.jpg)
 
 ### 1.2 窗口主要区域介绍
 
 
   在图1-3 中标注了窗口的主要区域，区域 1 是 Widget Box（工具箱）， 如图1-4所示， 其中提供了很多控件，每个控件都有自己的名称，提供不同的功能， 比如常用的按钮、 单选钮、 文本框登， 可以直接拖放到主窗口中。 在菜单栏中选择“窗体” \-\- "预览"， 或者按"Ctr+R" 快捷键， 就可以看到窗口的预览效果了。
+
+  ![1-4](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-4.jpg)
+![1-4](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-5.jpg)
+可以从 Buttons 栏拖拽一个按钮到主窗口（区域2）中， 如图 1-5 所示。
+
+![1-5](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-5.jpg)
+
+在对象查看器（区域 3）中，可以查看主窗口中放置的对象列表，如图 1- 6所示。
+
+![1-6](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-6.jpg)
+
+区域 4 是Qt Designer 的属性编辑器，其中提供了对窗口、控件、布局的属性编辑功能， 如图 1-7 所示。
+
+![1-7](https://raw.githubusercontent.com/phoenixwang1024/phoenixwang1024.github.io/master/img/QtDesigner/QtDesigner1-7.jpg)
+
+
+* <font color=#008B8B > objectName| 控件对象名称 </font>
+* <font color=#008B8B >geometry | 相对坐标系</font>
+* <font color=#008B8B >sizePolicy | 控件大小策略</font>
+* <font color=#008B8B >minimumSize | 最小宽度、高度</font>
+* <font color=#008B8B >maximumSize | 最大宽度、高度</font> 如果想让窗口或者控件大小固定，则可以将 minimumSize 和 maximumSize 这两个属性设置成一样的数值
+* <font color=#008B8B >font | 字体</font>
+* <font color=#008B8B >cursor | 光标</font>
+* <font color=#008B8B >windowTitle | 窗口标题</font>
+* <font color=#008B8B >windowsIcon/windowsIcon | 窗口图标/控件图标</font>
+
+### ps
+
+打包了教程所用的软件环境，不会影响到电脑本身环境，简单配置后即可运行教程中代码，适合新手和不想倒腾老鸟。
+
+[软件包百度云下载 提取码：lvdn](https://pan.baidu.com/s/1bAy5hJ_4ea0nM7gpmJhjiQ)
