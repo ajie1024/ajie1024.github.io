@@ -1,13 +1,13 @@
 # Site settings
-title: Phoenix Blog
-SEOTitle: 阿杰 | Phoenix Blog
+title: AJ Blog
+SEOTitle: 阿杰 | AJ Blog
 header-img: img/post-bg-desk.jpg
-email: phoenixwang92@gmail.com
+email: phoenix.wang92@gmail.com
 description: "Every failure is leading towards success."
-keyword: "Phoenix, Phoenix Blog, phoenix的博客, phoenix, 王杰, iOS, Apple, iPhone"
-url: "http://phoenixwang1024.github.io"          # your host, for absolute URL
+keyword: "AJ, AJie Blog, 阿杰的博客, AJie, 首页, ASR, Python, ATX"
+url: "http://ajie1024.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/phoenixwang1024/phoenixwang1024.github.io.git" # you code repository
+github_repo: "https://github.com/ajie1024/ajie1024.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -20,7 +20,7 @@ sidebar-avatar: /img/smoking.jpg      # use absolute URL, seeing it's used in bo
 RSS: false
 # weibo_username:     
 #zhihu_username:     
-github_username:    phoenixwang1024
+github_username:    ajie1024
 #facebook_username:  
 #jianshu_username:   
 #twitter_username:   
