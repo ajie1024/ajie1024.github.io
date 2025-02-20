@@ -12,7 +12,7 @@ github_repo: "https://github.com/ajie1024/ajie1024.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/smoking.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/AJie1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
